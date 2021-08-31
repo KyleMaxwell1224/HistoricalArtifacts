@@ -1,11 +1,15 @@
 .nav-content {
-    font-size: 1.5rem;
-    padding: .2rem;
-    margin: 0;
-    background-color: #013520;
-    color: wheat;
+    border-radius: 25px;
+    margin: 1.2rem;
+    background-color: #292929;
+    font-weight: bold;
+    font-variant-caps: small-caps;
+    padding: .4rem;
+    line-height: 2rem;
+    font-size: 2rem;
 }
 
 #navbar {
     text-align: center;
 }
+

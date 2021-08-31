@@ -10,6 +10,7 @@ table.mat-table {
     max-width: 50%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 2rem;
     border: black;
     border-style: inset;
     margin-top: 1rem;
@@ -20,13 +21,22 @@ h1 {
     font-weight: bolder;
     font-size: 3rem;
     font-style: italic;
+    color: cornsilk;
+    padding-bottom: 1rem;
 }
 #table-header {
     margin-top: 3rem;
+    line-height: 3rem;
     text-align: center;
 }
 
 .mat-header-cell {
     font-size: 2rem;
     
+}
+
+@media screen and (max-width: 600px) {
+    #table-container {
+        max-width: fit-content;
+    }
 }
