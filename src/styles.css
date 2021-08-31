@@ -1,6 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
 
 html, body { height: 100%;
-    background-color: teal;
+    background-color: #436954;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
 }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+a {
+    color: #20353b;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: black;
+  }
+  
+  a:visited {
+    color: #9fafa6;
+}
