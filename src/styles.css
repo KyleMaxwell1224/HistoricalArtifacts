@@ -7,9 +7,11 @@ html, body { height: 100%;
     margin-right: 1.4rem;
 }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
-
+p {
+  font-size: larger;
+}
 a {
-    color: #20353b;
+    color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 1rem;
@@ -25,4 +27,20 @@ a {
   
   a:visited {
     color: #9fafa6;
+}
+ol {
+  width: 26rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bolder;
+}
+.week-container {
+  text-align: center;
+  border: black;
+  background-color: #c1e0da42;
+  border-style:double;
+  border-radius: 24px;
+  padding: 1rem;
+  margin-left: auto;
+  margin-right: auto;
 }
