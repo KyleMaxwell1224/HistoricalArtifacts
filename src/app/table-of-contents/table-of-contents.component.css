@@ -7,7 +7,7 @@ table.mat-table {
 }
 
 #table-container {
-    max-width: 50%;
+    max-width: 60%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2rem;
@@ -17,22 +17,24 @@ table.mat-table {
     background-color: #0977097a;
     border-radius: 50px;
 }
+
 h1 {
     font-weight: bolder;
     font-size: 3rem;
     font-style: italic;
-    color: cornsilk;
+    color: white;
     padding-bottom: 1rem;
 }
+
 #table-header {
-    margin-top: 3rem;
+    margin-top: 1rem;
     line-height: 3rem;
     text-align: center;
 }
 
 .mat-header-cell {
     font-size: 2rem;
-    
+
 }
 
 @media screen and (max-width: 600px) {
