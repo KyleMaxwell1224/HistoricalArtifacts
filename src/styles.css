@@ -38,12 +38,16 @@ a:visited {
 }
 
 ol {
-  width: 26rem;
   margin-left: auto;
   margin-right: auto;
   font-weight: bolder;
 }
 
+#date {
+  border-color: gray;
+  border-top-style: dashed;
+  border-bottom-style: dashed;
+}
 .week-container {
   text-align: center;
   border: black;
@@ -57,7 +61,7 @@ ol {
 
 .main-list-entry {
   font-weight: 800;
-  font-size: x-large;
+  font-size: large;
   text-decoration: underline;
   margin-bottom: .8rem;
 }
