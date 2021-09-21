@@ -10,13 +10,15 @@ import { MatTableModule } from '@angular/material/table';
 import { WeekOneComponent } from './weeklyartifacts/week-one/week-one.component';
 import { TableOfContentsComponent } from './table-of-contents/table-of-contents.component';
 import { WeekTwoComponent } from './weeklyartifacts/week-two/week-two.component';
+import { WeekThreeComponent } from './weeklyartifacts/week-three/week-three.component';
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     WeekOneComponent,
     TableOfContentsComponent,
-    WeekTwoComponent
+    WeekTwoComponent,
+    WeekThreeComponent
   ],
   imports: [
     BrowserModule,
