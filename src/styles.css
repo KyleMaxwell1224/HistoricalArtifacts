@@ -43,6 +43,9 @@ ol {
   font-weight: bolder;
 }
 
+.week-header {
+  text-decoration: underline;
+}
 #date {
   border-color: gray;
   border-top-style: dashed;

@@ -11,6 +11,8 @@ import { WeekOneComponent } from './weeklyartifacts/week-one/week-one.component'
 import { TableOfContentsComponent } from './table-of-contents/table-of-contents.component';
 import { WeekTwoComponent } from './weeklyartifacts/week-two/week-two.component';
 import { WeekThreeComponent } from './weeklyartifacts/week-three/week-three.component';
+import { WeekFourComponent } from './weeklyartifacts/week-four/week-four.component';
+import { WeekFiveComponent } from './weeklyartifacts/week-five/week-five.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +20,9 @@ import { WeekThreeComponent } from './weeklyartifacts/week-three/week-three.comp
     WeekOneComponent,
     TableOfContentsComponent,
     WeekTwoComponent,
-    WeekThreeComponent
+    WeekThreeComponent,
+    WeekFourComponent,
+    WeekFiveComponent
   ],
   imports: [
     BrowserModule,
