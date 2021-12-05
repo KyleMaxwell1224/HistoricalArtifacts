@@ -19,6 +19,7 @@ import { WeekEightComponent } from './weeklyartifacts/week-eight/week-eight.comp
 import { WeekNineComponent } from './weeklyartifacts/week-nine/week-nine.component';
 import { WeekTenComponent } from './weeklyartifacts/week-ten/week-ten.component';
 import { WeekElevenComponent } from './weeklyartifacts/week-eleven/week-eleven.component';
+import { WeekTwelveComponent } from './weeklyartifacts/week-twelve/week-twelve.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,7 +35,8 @@ import { WeekElevenComponent } from './weeklyartifacts/week-eleven/week-eleven.c
     WeekEightComponent,
     WeekNineComponent,
     WeekTenComponent,
-    WeekElevenComponent
+    WeekElevenComponent,
+    WeekTwelveComponent
   ],
   imports: [
     BrowserModule,

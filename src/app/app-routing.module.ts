@@ -11,6 +11,7 @@ import { WeekSevenComponent } from './weeklyartifacts/week-seven/week-seven.comp
 import { WeekSixComponent } from './weeklyartifacts/week-six/week-six.component';
 import { WeekTenComponent } from './weeklyartifacts/week-ten/week-ten.component';
 import { WeekThreeComponent } from './weeklyartifacts/week-three/week-three.component';
+import { WeekTwelveComponent } from './weeklyartifacts/week-twelve/week-twelve.component';
 import { WeekTwoComponent } from './weeklyartifacts/week-two/week-two.component';
 
 
@@ -26,6 +27,7 @@ const routes: Routes = [
   { path: 'WeekNine', component: WeekNineComponent},
   { path: 'WeekTen', component: WeekTenComponent},
   { path: 'WeekEleven', component: WeekElevenComponent},
+  { path: 'WeekTwelve', component: WeekTwelveComponent},
   { path: '', component: TableOfContentsComponent, pathMatch: 'full' },
 ];
 const displayRoutes = [
@@ -40,6 +42,7 @@ const displayRoutes = [
   { weekNum: 9, name: 'Week Nine', path: 'WeekNine'},
   { weekNum: 10, name: 'Week Ten', path: 'WeekTen'},
   { weekNum: 11, name: 'Week Eleven', path: 'WeekEleven'},
+  { weekNum: 12, name: 'Week Twelve', path: 'WeekTwelve'},
 ];
 
 @NgModule({
