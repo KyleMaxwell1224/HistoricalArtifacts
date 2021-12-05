@@ -34,13 +34,29 @@ a:active {
 }
 
 a:visited {
-  color: #8fa197;
+  color: #000000;
 }
 
-ol {
+li {
+  width: fit-content;
+  margin-top: .3rem;
+}
+
+#go-back-div {
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#go-back {
   margin-left: auto;
   margin-right: auto;
-  font-weight: bolder;
+  background-color:#2e630a;
+  border:1px solid #53ff0f;
+  border-radius:5px;
+  color:#fff;
+  padding:10px 10px 10px 10px;
+
 }
 
 .week-header {

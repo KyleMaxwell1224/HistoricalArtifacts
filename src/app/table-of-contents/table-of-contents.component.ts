@@ -10,9 +10,9 @@ export class TableOfContentsComponent implements OnInit {
 
   constructor( private router: AppRoutingModule) { }
   ngOnInit(): void {
-  }
+    
+    }
   displayedColumns: string[] = ['Path'];
-  routeList = this.router.displayRoutes//this.router.routes;
+  routeList = this.router.displayRoutes;
   
-
 } 
